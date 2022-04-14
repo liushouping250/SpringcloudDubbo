@@ -1,0 +1,19 @@
+server:
+  port: ${random.int[10000,19999]}
+dubbo:
+  scan:
+    base-packages: com.demo.api.controller
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: spring-cloud://127.0.0.1
+spring:
+  application:
+    name: dubbo-api
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  main:
+    allow-bean-definition-overriding: true
