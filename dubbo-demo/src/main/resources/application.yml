@@ -10,6 +10,8 @@ dubbo:
     address: spring-cloud://127.0.0.1
   cloud:
     subscribed-services: dubbo-api
+  consumer:
+    filter: requestHandlerInterceptorConfig
 spring:
   application:
     name: dubbo-demo

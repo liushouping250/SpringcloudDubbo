@@ -1,0 +1,1 @@
+requestHandlerInterceptorConfig=com.demo.api.util.filters.RequestHandlerInterceptorConfig

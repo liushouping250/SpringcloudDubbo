@@ -1,13 +1,15 @@
 server:
-  port: ${random.int[10000,19999]}
+  port: 8091
 dubbo:
   scan:
-    base-packages: com.demo.api.controller
+    base-packages: com.demo.api.modules
   protocol:
     name: dubbo
     port: -1
   registry:
     address: spring-cloud://127.0.0.1
+  consumer:
+    filter: requestHandlerInterceptorConfig
 spring:
   application:
     name: dubbo-api

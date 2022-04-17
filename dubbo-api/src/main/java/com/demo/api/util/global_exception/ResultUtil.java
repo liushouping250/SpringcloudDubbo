@@ -1,4 +1,4 @@
-package com.dubbo.demo.util.global_exception;
+package com.demo.api.util.global_exception;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
