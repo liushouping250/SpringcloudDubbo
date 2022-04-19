@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
 public class HellowDubboController {
 
 
-    @Reference
+    @Reference(check = false)
     private HollowDubbo hollowDubbo;
 
     @GetMapping("/hello")
