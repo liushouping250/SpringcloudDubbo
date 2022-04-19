@@ -1,10 +1,9 @@
 package com.demo.api.modules.demo.controller;
 
 
-import com.demo.api.util.global_exception.ResultUtil;
+import com.demo.api.util.globalException.ResultUtil;
 import com.demo.service.service.HollowDubbo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

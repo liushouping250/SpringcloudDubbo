@@ -1,4 +1,4 @@
-package com.dubbo.demo.util.global_exception;
+package com.demo.api.util.globalException;
 
 /**
  * @description: 统一返回定义
